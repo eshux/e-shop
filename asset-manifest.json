@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/e-shop/static/css/main.71a6fb22.chunk.css",
-    "main.js": "/e-shop/static/js/main.f0017201.chunk.js",
-    "main.js.map": "/e-shop/static/js/main.f0017201.chunk.js.map",
-    "runtime-main.js": "/e-shop/static/js/runtime-main.8359ce74.js",
-    "runtime-main.js.map": "/e-shop/static/js/runtime-main.8359ce74.js.map",
+    "main.js": "/e-shop/static/js/main.a2e412f7.chunk.js",
+    "main.js.map": "/e-shop/static/js/main.a2e412f7.chunk.js.map",
+    "runtime-main.js": "/e-shop/static/js/runtime-main.2b503760.js",
+    "runtime-main.js.map": "/e-shop/static/js/runtime-main.2b503760.js.map",
     "static/css/2.bc5ef10c.chunk.css": "/e-shop/static/css/2.bc5ef10c.chunk.css",
-    "static/js/2.59450e5e.chunk.js": "/e-shop/static/js/2.59450e5e.chunk.js",
-    "static/js/2.59450e5e.chunk.js.map": "/e-shop/static/js/2.59450e5e.chunk.js.map",
-    "static/js/3.8c744b4a.chunk.js": "/e-shop/static/js/3.8c744b4a.chunk.js",
-    "static/js/3.8c744b4a.chunk.js.map": "/e-shop/static/js/3.8c744b4a.chunk.js.map",
+    "static/js/2.930cc73b.chunk.js": "/e-shop/static/js/2.930cc73b.chunk.js",
+    "static/js/2.930cc73b.chunk.js.map": "/e-shop/static/js/2.930cc73b.chunk.js.map",
+    "static/js/3.d5ce3ec1.chunk.js": "/e-shop/static/js/3.d5ce3ec1.chunk.js",
+    "static/js/3.d5ce3ec1.chunk.js.map": "/e-shop/static/js/3.d5ce3ec1.chunk.js.map",
     "index.html": "/e-shop/index.html",
     "static/css/2.bc5ef10c.chunk.css.map": "/e-shop/static/css/2.bc5ef10c.chunk.css.map",
     "static/css/main.71a6fb22.chunk.css.map": "/e-shop/static/css/main.71a6fb22.chunk.css.map",
-    "static/js/2.59450e5e.chunk.js.LICENSE.txt": "/e-shop/static/js/2.59450e5e.chunk.js.LICENSE.txt",
+    "static/js/2.930cc73b.chunk.js.LICENSE.txt": "/e-shop/static/js/2.930cc73b.chunk.js.LICENSE.txt",
     "static/media/cart.1349cc86.svg": "/e-shop/static/media/cart.1349cc86.svg",
     "static/media/clu.001cd853.jpg": "/e-shop/static/media/clu.001cd853.jpg",
     "static/media/dw.74902493.jpg": "/e-shop/static/media/dw.74902493.jpg",
@@ -24,10 +24,10 @@
     "static/media/ph.9df7e0e1.jpg": "/e-shop/static/media/ph.9df7e0e1.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8359ce74.js",
+    "static/js/runtime-main.2b503760.js",
     "static/css/2.bc5ef10c.chunk.css",
-    "static/js/2.59450e5e.chunk.js",
+    "static/js/2.930cc73b.chunk.js",
     "static/css/main.71a6fb22.chunk.css",
-    "static/js/main.f0017201.chunk.js"
+    "static/js/main.a2e412f7.chunk.js"
   ]
 }
