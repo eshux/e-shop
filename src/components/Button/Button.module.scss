@@ -1,0 +1,21 @@
+.button {
+  background-color: white;
+  border: 2px solid rgb(238, 238, 238);
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: 'Roboto', sans-serif;
+
+  &:hover {
+    background-color: rgb(238, 238, 238);
+  }
+}
+
+.active {
+  background-color: rgb(238, 238, 238);
+
+  &:hover {
+    background-color: rgb(202, 202, 202);
+    border-color: rgb(202, 202, 202);
+  }
+}

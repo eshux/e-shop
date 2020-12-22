@@ -1,0 +1,29 @@
+.logo {
+  width: 150px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.img {
+  width: 20px;
+  height: 20px;
+}
+
+.num {
+  margin-right: 5px;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
