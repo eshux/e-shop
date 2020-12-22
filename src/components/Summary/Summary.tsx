@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import { useSelector } from 'react-redux';
 import style from './Summary.module.scss';
-import { RootState } from '../../store/mainReducer';
+import { RootState } from '../../store';
 import { translations } from '../../data/translations';
 
 type Props = {

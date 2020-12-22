@@ -6,7 +6,7 @@ import style from './Product.module.scss';
 import { addToCart, removeFromCart } from '../../store/products/actions';
 import Button from '../Button/Button';
 import { translations } from '../../data/translations';
-import { RootState } from '../../store/mainReducer';
+import { RootState } from '../../store';
 
 type Props = {
   title: string;
@@ -36,7 +36,7 @@ const Product: FC<Props> = ({ title, price, selected, img, id }) => {
             active={true}
             text={translations[language].buttons.addToCart}
             onClick={() => {
-              dispatch(addToCart(id, true));
+              dispatch(addToCart(id));
               added();
             }}
           />
@@ -57,7 +57,7 @@ const Product: FC<Props> = ({ title, price, selected, img, id }) => {
         <Button
           text={translations[language].buttons.removeFromCart}
           onClick={() => {
-            dispatch(removeFromCart(id, false));
+            dispatch(removeFromCart(id));
           }}
         />
       )}

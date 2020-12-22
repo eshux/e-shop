@@ -8,32 +8,32 @@ export const products = (state = initialStore, action: AllActions) => {
 
   switch (action.type) {
     case ADD_TO_CART: {
-      const newState = [...state];
-      newState.forEach((item) => {
+      return state.map((item) => {
         if (item.id === action.id) {
-          item.selected = action.add;
+          item.selected = true;
         }
+        return item;
       });
-      return newState;
     }
+
     case REMOVE_FROM_CART: {
-      const newState = [...state];
-      newState.forEach((item) => {
+      return state.map((item) => {
         if (item.id === action.id) {
-          item.selected = action.remove;
+          item.selected = false;
         }
+        return item;
       });
-      return newState;
     }
+    
     case CHANGE_QUANTITY: {
-      const newState = [...state];
-      newState.forEach((item) => {
+      return state.map((item) => {
         if (item.id === action.id) {
           item.quantity = action.quantity;
         }
+        return item;
       });
-      return newState;
     }
+
     default:
       return state;
   }

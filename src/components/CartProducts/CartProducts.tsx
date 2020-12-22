@@ -7,7 +7,7 @@ import { removeFromCart, changeQuantity } from '../../store/products/actions';
 import RemoveButton from '../RemoveButton/RemoveButton';
 import Summary from '../Summary/Summary';
 import { translations } from '../../data/translations';
-import { RootState } from '../../store/mainReducer';
+import { RootState } from '../../store';
 
 type Props = {
   products: ProductState;
@@ -47,7 +47,7 @@ const CartProducts: FC<Props> = ({ products }) => {
                   <td>
                     <RemoveButton
                       onClick={() => {
-                        dispatch(removeFromCart(id, false));
+                        dispatch(removeFromCart(id));
                         dispatch(changeQuantity(id, 1));
                       }}
                     />

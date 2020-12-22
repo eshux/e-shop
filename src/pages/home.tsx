@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import { useSelector } from 'react-redux';
 import Product from '../components/Product/Product';
-import { RootState } from '../store/mainReducer';
+import { RootState } from '../store';
 import { translations } from '../data/translations';
 
 const Home: FC = () => {

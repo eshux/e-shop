@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import style from './Header.module.scss';
 import logo from '../../assets/logo.svg';
 import cart from '../../assets/cart.svg';
-import { RootState } from '../../store/mainReducer';
+import { RootState } from '../../store';
 import { Languages } from '../../store/language/types';
 import { languageData } from '../../data/languageData';
 import { changeLanguage } from '../../store/language/actions';

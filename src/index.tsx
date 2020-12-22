@@ -5,7 +5,7 @@ import App from './App';
 import 'flexboxgrid';
 import './index.scss';
 import reportWebVitals from './reportWebVitals';
-import { store } from './store/store';
+import { store } from './store';
 
 ReactDOM.render(
   <React.StrictMode>

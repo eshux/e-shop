@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux';
 import Button from '../components/Button/Button';
 import emptyCart from '../assets/empty.png';
 import CartProducts from '../components/CartProducts/CartProducts';
-import { RootState } from '../store/mainReducer';
+import { RootState } from '../store';
 import { translations } from '../data/translations';
 
 

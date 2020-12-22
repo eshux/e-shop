@@ -8,7 +8,7 @@ export type LanguageState = {
 
 export type ChangeLanguage = {
   type: typeof CHANGE_LANGUAGE;
-  language: string;
+  language: Languages;
 };
 
 export type AllActions =  ChangeLanguage;
